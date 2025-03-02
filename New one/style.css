@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+}
+.navbar{
+    padding:0 ;
+    text-align: center;
+    margin: 0;
+    max-width: 1400px;
+    width: 100%;
+    position:relative;
+    height: 70px;
+    background-color:#5f25A6
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  height: 70px;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li {
+  float: left;
+  padding: 20px;
+}
+.image{
+    object-fit: contain;
+    height: auto;
+    }
+.logo{
+    height: 70px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:orange;
+}
+.search{
+  font-size: 40px;
+  color: white;
+}
+.fa-search::before {
+    content: "\f002";
+}
+.account{
+  font-size: 40px;
+  color: white;
+}
+.tab{
+  width:420px;
+}
+.fa-user-circle::before {
+  content: "\f2bd";
+}
+.bars{
+  font-size: 40px;
+  color: white;
+}
+.fa-bars::before {
+  content: "\f0c9";
+}
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #444444;
+  border-radius: 20px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: whitesmoke;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown{
+  margin-top: 10px;
+  height: 30px;
+}
+.dropdown-content a:hover {
+  background-color: #7f7f7f;
+  border-radius: 10px;
+  color: rgb(243, 80, 243);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.search-box{
+  margin-top: 85px;
+  margin-left: 270px;
+  display:flex;
+
+}
+.small{
+  width: 5px;
+}
+input{
+  height: 55px;
+  width: 640px;
+  border-radius: 50px;
+  border: 0;
+  padding: 5px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.search-button{
+  padding-top: 10px;
+  height: 55px;
+  width: 65px;
+  margin-top: -2px;
+  border-radius: 50%;
+  border: 0;
+  color:black;
+  text-orientation: unset;
+  font-size: 40px;
+  text-align: center;
+  background-color: #EECC0D;
+}
+
+.search-button::before {
+  content: "\f002";
+}
+
+.home-page{
+  background-color: #EECC0D;
+  border-radius: 20px;
+  padding: 10px;
+  width:225px;
+  margin-left: 500px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bottom {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f1f1f;
+  color: #ddd;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content{
+    font-size: 14px;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    text-align: center;
+}
+.item{
+    display: inline-flex;
+    align-items: center;
+    margin-left:50px;
+    margin-bottom:20px;
+}
+
+.dibba{
+    margin-top: 20px;
+    background-color: #2f2f2f;
+    border-radius: 10PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: 72px;    
+}
+
+.text{
+    align-items: center;
+}
